@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+2 <html>
+3
+
+4 <head>
+5   <meta charset="UTF-8">
+6   <title>박스 모델</title>
+7   <style>
+8     body {
+9       background: ghostwhite;
+10     }
+11
+12     span {
+13       background: deepskyblue;
+14     }
+15
+16     div.box {
+17       background: yellow;
+18       border-style: solid;
+19       border-color: peru;
+20       margin: 40px;
+21       border-width: 30px;
+22       padding: 20px;
+23       border-radius : 0px 20px 40px 60px;
+24
+25     }
+26   </style>
+27 </head>
+28
+
+29 <body>
+30   <div class="box">
+31     <span>박스는 HTML의 기본 구성이다.</span>
+32   </div>
+33 </body>
+34
+
+35 </html>
